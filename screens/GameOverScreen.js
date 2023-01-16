@@ -1,7 +1,7 @@
-import React from 'react'
+import {Text} from 'react-native';
 
-export const GameOverScreen = () => {
-  return (
-    <div>GameOverScreen</div>
-  )
+const GameOverScreen = () => {
+  return <Text>Game is Over</Text>
 }
+
+export default GameOverScreen;
